@@ -1,0 +1,82 @@
+<html>
+<head> <title> LOGIN PER </title>
+<body bgcolor= #2d343d style background="PER.jpg">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    </head><style>
+
+
+.pedido {
+  margin: 20px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+  border: 1px solid #c4c4c4;
+}
+
+h1.pedido-title {
+  margin: -28px -25px 25px;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #00000;
+  text-align:center;
+  background: #f7f7f7;
+ font-family:Courier;
+}
+
+.pedido-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pedido-input:focus {
+    border-color:#6e8095;
+    outline: none;
+  }
+.pedido-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #1eb2b2;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; 
+  outline:0;
+}
+
+.pedido-lost
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+
+.pedido-lost a
+{
+  color:#666;
+  text-decoration:none;
+  font-size:13px;
+}
+
+</style>
+
+<form class="pedido">
+    <h1 class="login-title">Ordena tu pedido</h1>
+    <input type="text" class="pedido-input" placeholder="Nombre y Apellido" autofocus>
+    <input type="direccion" class="pedido-input" placeholder="Direccion Especifica">
+    <p> Cantidad </p><input type="number" name="cantidad" min="1" max="10">
+    <input type="text" class="pedido-input" placeholder="Indicar alguna observacion">
+     <input type="submit" value="Ordenar" class="pedido-button">
+  </form>
+</body>
+</html>
